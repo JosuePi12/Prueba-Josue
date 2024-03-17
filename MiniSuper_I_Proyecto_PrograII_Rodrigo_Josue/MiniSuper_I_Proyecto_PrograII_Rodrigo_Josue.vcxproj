@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Interfaz.cpp" />
     <ClCompile Include="Principal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interfaz.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
